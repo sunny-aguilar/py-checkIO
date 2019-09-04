@@ -2,7 +2,7 @@
 
 def main():
     alist = [1, 2, 3, 4]
-    n = 3
+    n = 1
     index_power(alist, n)
 
 
@@ -15,6 +15,7 @@ def index_power(my_list, n):
         calc = 1
 
         for i in my_list:
+            print(i)
             calc = calc * my_list[n]
         print(calc)
         return calc
