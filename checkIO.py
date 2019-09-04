@@ -33,10 +33,12 @@ def main():
 
 def getCalc(val):
     total = 1
-    for i in val:
-        total = total * i
+    valStr = str(val)
 
+    for i in valStr:
+        total = total * int(i)
 
+    print(total)
 
 
 main()
