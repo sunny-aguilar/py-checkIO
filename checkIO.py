@@ -15,7 +15,6 @@ def index_power(my_list, n):
         calc = 1
         print(my_list[n])
         for i in my_list:
-            #print('11')
             calc = calc * my_list[n]
 
         return calc
