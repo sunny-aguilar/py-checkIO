@@ -2,7 +2,7 @@
 
 def main():
     alist = [1, 2, 3, 4]
-    n = 1
+    n = 2
     index_power(alist, n)
 
 
@@ -14,8 +14,7 @@ def index_power(my_list, n):
     if list_length > 0:
         calc = 1
 
-        for i in my_list:
-            print(i)
+        for i in range(n):
             calc = calc * my_list[n]
         print(calc)
         return calc
