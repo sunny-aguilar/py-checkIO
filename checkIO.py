@@ -2,24 +2,24 @@
 
 def main():
     alist = [1, 2, 3]
-    n = 3
+    n = 2
     index_power(alist, n)
 
 
-main()
-
-
-def index_power(list, n):
+def index_power(my_list, n):
     """
         Find Nth power of the element with index N.
     """
-    listLength = len(list)
-    if listLength > 0:
+    list_length = len(my_list)
+    if list_length > 0:
         calc = 0
-        for i in list:
-            calc *= list[n]
-
+        print(my_list[n])
+        for i in my_list:
+            #print('11')
+            calc = calc * my_list[n]
+        return calc
     else:
         return -1
 
 
+main()
