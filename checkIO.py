@@ -1,14 +1,15 @@
 
 
 def main():
-    list = [1, 2, 3]
-    index_power()
+    alist = [1, 2, 3]
+    n = 3
+    index_power(alist, n)
 
 
 main()
 
 
-def index_power(array: list, n: int) -> int:
+def index_power(list, n):
     """
         Find Nth power of the element with index N.
     """
