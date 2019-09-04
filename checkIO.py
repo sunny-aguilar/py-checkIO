@@ -28,7 +28,7 @@
 
 
 def main():
-    getCalc(123)
+    getCalc(1234)
 
 
 def getCalc(val):
