@@ -25,3 +25,10 @@
 #
 
 # main()
+
+
+def main():
+    print()
+
+
+
