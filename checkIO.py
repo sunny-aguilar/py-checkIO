@@ -28,7 +28,15 @@
 
 
 def main():
-    print()
+    getCalc(123)
+
+
+def getCalc(val):
+    total = 1
+    for i in val:
+        total = total * i
+
+
 
 
 main()
