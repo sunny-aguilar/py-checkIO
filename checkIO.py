@@ -64,10 +64,12 @@
 
 
 def main():
-    print()
+    number = 15
+    checkio(number)
 
 
-def checkio():
+def checkio(number):
     print()
+    
 
 main()
