@@ -72,6 +72,10 @@ def checkio(number):
     phrase = ''
     if (number % 3) == 0 and (number % 5) == 0:
         phrase = 'Fizz Buzz'
+    elif (number % 3) == 0:
+        phrase = 'Fizz'
+    elif (number % 5) == 0:
+        phrase = 'Buzz'
 
 
 
