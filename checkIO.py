@@ -43,21 +43,23 @@
 # main()
 
 
-def main():
-    text = 'How are you? Eh, ok. Low or Lower? Ohhh.'
-    text2 = 'hello world!'
-    text3 = 'HELLO WORLD!!!'
+# def main():
+#     text = 'How are you? Eh, ok. Low or Lower? Ohhh.'
+#     text2 = 'hello world!'
+#     text3 = 'HELLO WORLD!!!'
+#
+#     find_message(text3)
+#
+#
+# def find_message(string):
+#     message = ''
+#     for i in string:
+#         if i.isupper():
+#             message = message + i
+#
+#     print(message)
+#
+#
+# main()
 
-    find_message(text)
 
-
-def find_message(string):
-    message = ''
-    for i in string:
-        if i.isupper():
-            message = message + i
-
-    print(message)
-
-
-main()
