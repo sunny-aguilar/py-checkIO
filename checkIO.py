@@ -83,3 +83,15 @@
 #
 #
 # main()
+
+
+def mai():
+    print()
+
+def
+
+
+
+
+
+
