@@ -86,20 +86,21 @@
 
 
 def main():
-    array = [0, 1, 2, 3, 4, 5]
+    array = []
     checkio(array)
 
 
 def checkio(array):
     last = array[-1]
     total = 0
-
-    for i in range(len(array)):
-        if i % 2 == 0:
-            total = total + array[i]
-    total = total * last
-    return total
-
+    if len(array) > 0
+        for i in range(len(array)):
+            if i % 2 == 0:
+                total = total + array[i]
+        total = total * last
+        return total
+    else:
+        return 0
 
 main()
 
