@@ -13,7 +13,7 @@ def index_power(array, n):
         Find Nth power of the element with index N.
     """
     list_length = len(array)
-    if list_length > 0:
+    if n < len(array):
         calc = 1
 
         for i in range(n):
