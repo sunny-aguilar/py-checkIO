@@ -49,7 +49,10 @@ def main():
 
 
 def find_message(string):
-    print(string)
+    message = ''
+    for i in string:
+        if (i.isupper()) == True:
+
 
 
 main()
