@@ -2,28 +2,28 @@
 # from checkIO
 
 
-def main():
-    alist = [1, 2, 3, 4]
-    n = 2
-    index_power(alist, n)
-
-
-def index_power(array, n):
-    """
-        Find Nth power of the element with index N.
-    """
-    if n < len(array):
-        calc = 1
-
-        for i in range(n):
-            calc = calc * array[n]
-        print(calc)
-        return calc
-    else:
-        return -1
-
-
-main()
+# def main():
+#     alist = [1, 2, 3, 4]
+#     n = 2
+#     index_power(alist, n)
+#
+#
+# def index_power(array, n):
+#     """
+#         Find Nth power of the element with index N.
+#     """
+#     if n < len(array):
+#         calc = 1
+#
+#         for i in range(n):
+#             calc = calc * array[n]
+#         print(calc)
+#         return calc
+#     else:
+#         return -1
+#
+#
+# main()
 
 #
 # def main():
