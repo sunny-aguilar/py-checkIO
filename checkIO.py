@@ -54,5 +54,6 @@ def find_message(string):
         if (i.isupper()) == True:
             message = message + i
 
+    print(message)
 
 main()
