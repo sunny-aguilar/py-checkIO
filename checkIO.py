@@ -91,7 +91,7 @@ def main():
 
 
 def checkio(array):
-    print()
+    last = array[-1]
 
 
 main()
