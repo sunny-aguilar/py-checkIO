@@ -42,3 +42,14 @@
 #
 # main()
 
+
+def main():
+    text = 'How are you? Eh, ok. Low or Lower? Ohhh.'
+    find_message(text)
+
+
+def find_message(string):
+    print(string)
+
+
+main()
