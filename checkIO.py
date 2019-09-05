@@ -25,20 +25,20 @@
 #
 # main()
 
-#
-# def main():
-#     getCalc(1234)
-#
-#
-# def getCalc(val):
-#     total = 1
-#     valStr = str(val)
-#
-#     for i in valStr:
-#         total = total * int(i)
-#
-#     print(total)
-#
-#
-# main()
+
+def main():
+    getCalc(1234)
+
+
+def getCalc(val):
+    total = 1
+    valStr = str(val)
+
+    for i in valStr:
+        total = total * int(i)
+
+    print(total)
+
+
+main()
 
