@@ -12,7 +12,6 @@ def index_power(array, n):
     """
         Find Nth power of the element with index N.
     """
-    list_length = len(array)
     if n < len(array):
         calc = 1
 
