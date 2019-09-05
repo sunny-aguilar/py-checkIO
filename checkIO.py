@@ -65,7 +65,7 @@
 
 def main():
     number = 15
-    checkio(number)
+    print(checkio(number))
 
 
 def checkio(number):
