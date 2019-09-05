@@ -35,7 +35,8 @@ def getCalc(val):
     valStr = str(val)
 
     for i in valStr:
-        total = total * int(i)
+        if i is not 0:
+            total = total * int(i)
 
     print(total)
 
