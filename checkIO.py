@@ -85,25 +85,40 @@
 # main()
 
 
+# def main():
+#     array = []
+#     checkio(array)
+#
+#
+# def checkio(array):
+#     if len(array) > 0:
+#         last = array[-1]
+#         total = 0
+#         for i in range(len(array)):
+#             if i % 2 == 0:
+#                 total = total + array[i]
+#         total = total * last
+#         return total
+#     else:
+#         return 0
+#
+#
+# main()
+
+
 def main():
-    array = []
-    checkio(array)
+    data = {'CAC': 10.0, 'ATX': 390.2, 'WIG': 1.2}
+    best_stock(data)
 
+def best_stock(data):
+    price = 0
+    stock = ''
 
-def checkio(array):
-    if len(array) > 0:
-        last = array[-1]
-        total = 0
-        for i in range(len(array)):
-            if i % 2 == 0:
-                total = total + array[i]
-        total = total * last
-        return total
-    else:
-        return 0
+    for i in data:
+        if data[i] > price:
+            price = data[i]
+            stock = i
+    return stock
 
 
 main()
-
-
-
