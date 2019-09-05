@@ -97,9 +97,7 @@ def checkio(array):
     for i in range(len(array)):
         if i % 2 == 0:
             total = total + array[i]
-            print(total)
     total = total * last
-
     return total
 
 
