@@ -92,6 +92,7 @@ def main():
 
 def checkio(array):
     last = array[-1]
+    print(last)
     total = 0
 
     for i in range(len(array)):
