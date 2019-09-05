@@ -64,7 +64,7 @@
 
 
 def main():
-    number = 15
+    number = 7
     print(checkio(number))
 
 
@@ -76,6 +76,8 @@ def checkio(number):
         phrase = 'Fizz'
     elif (number % 5) == 0:
         phrase = 'Buzz'
+    else:
+        phrase = str(number)
 
     return phrase
 
