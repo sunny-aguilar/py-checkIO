@@ -45,6 +45,7 @@
 
 def main():
     text = 'How are you? Eh, ok. Low or Lower? Ohhh.'
+    text2 = 'hello world!'
     find_message(text)
 
 
