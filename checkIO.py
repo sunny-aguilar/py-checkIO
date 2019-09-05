@@ -40,6 +40,5 @@ def getCalc(val):
         print(total)
 
 
-
 main()
 
