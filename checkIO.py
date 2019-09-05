@@ -91,9 +91,9 @@ def main():
 
 
 def checkio(array):
-    last = array[-1]
-    total = 0
-    if len(array) > 0
+    if len(array) > 0:
+        last = array[-1]
+        total = 0
         for i in range(len(array)):
             if i % 2 == 0:
                 total = total + array[i]
@@ -101,6 +101,7 @@ def checkio(array):
         return total
     else:
         return 0
+
 
 main()
 
