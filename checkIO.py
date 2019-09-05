@@ -95,7 +95,7 @@ def checkio(array):
     sum = 0
     for i in array:
         if i % 2 == 0:
-
+            sum = sum + i
 
 
 main()
