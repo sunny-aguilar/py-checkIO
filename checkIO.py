@@ -97,6 +97,10 @@ def checkio(array):
         if i % 2 == 0:
             total = total + i
 
+    total *= last
+    print(total)
+    return total
+
 
 main()
 
