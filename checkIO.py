@@ -69,7 +69,11 @@ def main():
 
 
 def checkio(number):
-    print()
-    
+    if (number % 3) == 0:
+        print('Divisible by 3')
+
+
+
+
 
 main()
