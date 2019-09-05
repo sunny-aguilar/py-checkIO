@@ -69,8 +69,9 @@ def main():
 
 
 def checkio(number):
+    phrase = ''
     if (number % 3) == 0 and (number % 5) == 0:
-        print('Divisible by 3')
+        phrase = 'Fizz Buzz'
 
 
 
