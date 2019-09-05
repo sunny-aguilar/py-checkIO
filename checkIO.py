@@ -63,23 +63,23 @@
 # main()
 
 
-def main():
-    number = 7
-    print(checkio(number))
-
-
-def checkio(number):
-    phrase = ''
-    if (number % 3) == 0 and (number % 5) == 0:
-        phrase = 'Fizz Buzz'
-    elif (number % 3) == 0:
-        phrase = 'Fizz'
-    elif (number % 5) == 0:
-        phrase = 'Buzz'
-    else:
-        phrase = str(number)
-
-    return phrase
-
-
-main()
+# def main():
+#     number = 7
+#     print(checkio(number))
+#
+#
+# def checkio(number):
+#     phrase = ''
+#     if (number % 3) == 0 and (number % 5) == 0:
+#         phrase = 'Fizz Buzz'
+#     elif (number % 3) == 0:
+#         phrase = 'Fizz'
+#     elif (number % 5) == 0:
+#         phrase = 'Buzz'
+#     else:
+#         phrase = str(number)
+#
+#     return phrase
+#
+#
+# main()
