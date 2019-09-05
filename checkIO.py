@@ -92,6 +92,8 @@ def main():
 
 def checkio(array):
     last = array[-1]
+    for i in array:
+        if i % 2 == 0:
 
 
 main()
