@@ -63,8 +63,11 @@
 # main()
 
 
-def main()
+def main():
     print()
 
+
+def checkio():
+    print()
 
 main()
