@@ -27,13 +27,13 @@
 
 
 def main():
-    getCalc(1234)
+    getCalc(123405)
 
 
 def getCalc(val):
     total = 1
     valStr = str(val)
-
+    print(valStr)
     for i in valStr:
         if i is not 0:
             total = total * int(i)
