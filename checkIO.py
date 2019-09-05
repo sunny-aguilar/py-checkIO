@@ -92,13 +92,12 @@ def main():
 
 def checkio(array):
     last = array[-1]
-    print(last)
     total = 0
 
     for i in range(len(array)):
         if i % 2 == 0:
-            print(array[i])
             total = total + array[i]
+            print(total)
     total = total * last
 
     return total
