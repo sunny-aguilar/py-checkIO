@@ -152,7 +152,13 @@ def main():
 
 def main():
     phrases = ''
+    left_join()
 
+
+def left_join():
+    print()
 
 
 main()
+
+
