@@ -124,4 +124,12 @@
 # main()
 
 
+def main():
+    print()
 
+
+def correct_sentence(text):
+    print()
+
+
+main()
