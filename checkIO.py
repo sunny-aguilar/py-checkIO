@@ -130,9 +130,11 @@ def main():
 
 
 def correct_sentence(text):
+    newStr = ''
     if text is not text[0].isupper():
         text[0] = text[0].upper()
 
     print(text[0])
+
 
 main()
