@@ -132,11 +132,14 @@ def main():
 def correct_sentence(text):
     newStr = ''
 
-    for i in text:
-        print()
+    for i in range(len(text)):
+        if i == 0:
+            if text[0] is not text[0].isupper():
+                text[0] = text[0].upper()
+        if i == len(text) - 1:
+            if text[-1] is not '.':
+                print()
 
-    if text is not text[0].isupper():
-        text[0] = text[0].upper()
 
     print(text[0])
 
