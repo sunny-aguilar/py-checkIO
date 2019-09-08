@@ -146,7 +146,7 @@ def correct_sentence(text):
 
 
 
-    print()
+    print(new_str)
 
 
 main()
