@@ -151,7 +151,7 @@
 
 
 def main():
-    phrases = 'left, right, left, stop'
+    phrases = 'bright aright'
     left_join(phrases)
 
 
@@ -161,6 +161,7 @@ def left_join(phrases):
         phrases.replace("right", "left")
 
     print(phrases)
+
 
 main()
 
