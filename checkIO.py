@@ -133,6 +133,8 @@ def correct_sentence(text):
     new_str = ''
 
     for i in range(len(text)):
+        new_str = text[i]
+
         if i == 0:
             if text[0] is not text[0].isupper():
                 new_str[0] = text[0].upper()
@@ -144,7 +146,7 @@ def correct_sentence(text):
 
 
 
-    print(text[0])
+    print()
 
 
 main()
