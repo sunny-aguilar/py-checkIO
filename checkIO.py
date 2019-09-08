@@ -151,11 +151,10 @@
 
 
 def main():
-    phrases = 'bright aright'
     left_join("left", "right", "left", "stop")
 
 
-def left_join(phrases):
+def left_join(*phrases):
 
     new_phrase = phrases.replace("right", "left")
     # if 'right' in phrases:
