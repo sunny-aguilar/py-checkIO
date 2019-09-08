@@ -134,5 +134,4 @@ def correct_sentence(text):
         print("No upper needed")
 
 
-
 main()
