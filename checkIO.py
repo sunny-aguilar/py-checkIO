@@ -124,9 +124,9 @@
 # main()
 
 
-def main():
-    text = "hello, Sandro"
-    correct_sentence(text)
+# def main():
+#     text = "hello, Sandro"
+#     correct_sentence(text)
 
 
 # def correct_sentence(text):
