@@ -125,12 +125,12 @@
 
 
 def main():
-    text = "hello there"
+    text = "Hello there"
     correct_sentence(text)
 
 
 def correct_sentence(text):
-    if text[0].isupper() == True:
+    if text[0].isupper():
         print("No upper needed")
 
 
