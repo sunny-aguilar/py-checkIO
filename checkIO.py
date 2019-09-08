@@ -130,7 +130,9 @@ def main():
 
 
 def correct_sentence(text):
-    if text[0].isupper() == True
+    if text[0].isupper() == True:
+        print("No upper needed")
+
 
 
 main()
