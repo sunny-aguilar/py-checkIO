@@ -152,10 +152,10 @@ def main():
 
 def main():
     phrases = ''
-    left_join()
+    left_join(phrases)
 
 
-def left_join():
+def left_join(phrases):
     print()
 
 
