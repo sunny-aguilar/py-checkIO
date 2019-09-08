@@ -135,10 +135,10 @@ def correct_sentence(text):
     for i in range(len(text)):
         if i == 0:
             if text[0] is not text[0].isupper():
-                newStr[0] = text[0].upper()
+                new_str[0] = text[0].upper()
         if i == len(text):
             if text[-1] is not '.':
-                newStr = newStr + '.'
+                new_str = new_str + '.'
 
 
 
