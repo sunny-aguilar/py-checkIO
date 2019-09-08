@@ -129,22 +129,22 @@ def main():
     correct_sentence(text)
 
 
-def correct_sentence(text):
-    new_str = ''
-
-    for i in range(len(text)):
-        new_str += text[i]
-
-        if i == 0:
-            if text[0] is not text[0].isupper():
-                r = text[0]
-                new_str = r.upper()
-
-        if i == len(text) - 1:
-            if text[-1] is not '.':
-                new_str += '.'
-
-    return new_str
-
-
-main()
+# def correct_sentence(text):
+#     new_str = ''
+#
+#     for i in range(len(text)):
+#         new_str += text[i]
+#
+#         if i == 0:
+#             if text[0] is not text[0].isupper():
+#                 r = text[0]
+#                 new_str = r.upper()
+#
+#         if i == len(text) - 1:
+#             if text[-1] is not '.':
+#                 new_str += '.'
+#
+#     return new_str
+#
+#
+# main()
