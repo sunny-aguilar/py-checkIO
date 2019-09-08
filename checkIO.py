@@ -144,7 +144,7 @@ def correct_sentence(text):
             if text[-1] is not '.':
                 new_str += '.'
 
-    print(new_str)
+    return new_str
 
 
 main()
