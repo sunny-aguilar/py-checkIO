@@ -160,7 +160,7 @@ def left_join(phrases):
     # if 'right' in phrases:
     #     phrases.replace("right", "left")
 
-    print(phrases)
+    print(new_phrase)
 
 
 main()
