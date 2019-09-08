@@ -156,7 +156,7 @@ def main():
 
 
 def left_join(phrases):
-    print(phrases.replace("right", "left"))
+    new_phrase = phrases.replace("right", "left")
     # if 'right' in phrases:
     #     phrases.replace("right", "left")
 
