@@ -125,7 +125,7 @@
 
 
 def main():
-    print()
+    correct_sentence()
 
 
 def correct_sentence(text):
