@@ -106,19 +106,22 @@
 # main()
 
 
-def main():
-    data = {'CAC': 10.0, 'ATX': 390.2, 'WIG': 1.2}
-    best_stock(data)
+# def main():
+#     data = {'CAC': 10.0, 'ATX': 390.2, 'WIG': 1.2}
+#     best_stock(data)
+#
+# def best_stock(data):
+#     price = 0
+#     stock = ''
+#
+#     for i in data:
+#         if data[i] > price:
+#             price = data[i]
+#             stock = i
+#     return stock
+#
+#
+# main()
 
-def best_stock(data):
-    price = 0
-    stock = ''
-
-    for i in data:
-        if data[i] > price:
-            price = data[i]
-            stock = i
-    return stock
 
 
-main()
