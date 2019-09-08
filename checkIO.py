@@ -133,8 +133,8 @@ def correct_sentence(text):
     new_str = ''
 
     for i in range(len(text)):
-        new_str = text[i]
-        print(new_str)
+        new_str += text[i]
+
         if i == 0:
             if text[0] is not text[0].isupper():
                 r = text[0]
@@ -142,7 +142,7 @@ def correct_sentence(text):
 
         if i == len(text):
             if text[-1] is not '.':
-                new_str = new_str + '.'
+                new_str += '.'
 
     print(new_str)
 
