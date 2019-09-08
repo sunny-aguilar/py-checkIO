@@ -138,7 +138,7 @@ def correct_sentence(text):
                 newStr[0] = text[0].upper()
         if i == len(text):
             if text[-1] is not '.':
-                print()
+                newStr[-1]
 
 
 
