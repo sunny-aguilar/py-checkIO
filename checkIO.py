@@ -130,7 +130,7 @@ def main():
 
 
 def correct_sentence(text):
-    if text[0]
+    if text[0].isupper() == True
 
 
 main()
