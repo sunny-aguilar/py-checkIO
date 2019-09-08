@@ -151,12 +151,12 @@
 
 
 def main():
-    phrases = ''
+    phrases = 'left, right, left, stop'
     left_join(phrases)
 
 
 def left_join(phrases):
-    print()
+    print(phrases)
 
 
 main()
