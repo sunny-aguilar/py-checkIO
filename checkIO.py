@@ -125,7 +125,7 @@
 
 
 def main():
-    text = "Hello there"
+    text = "hello, Sandro"
     correct_sentence(text)
 
 
@@ -140,7 +140,7 @@ def correct_sentence(text):
                 r = text[0]
                 new_str = r.upper()
 
-        if i == len(text):
+        if i == len(text) - 1:
             if text[-1] is not '.':
                 new_str += '.'
 
