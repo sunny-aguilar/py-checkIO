@@ -125,11 +125,12 @@
 
 
 def main():
-    correct_sentence()
+    text = "hello there"
+    correct_sentence(text)
 
 
 def correct_sentence(text):
-    print()
+    if text[0]
 
 
 main()
